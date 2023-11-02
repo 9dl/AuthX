@@ -1,3 +1,5 @@
+
+Warning: AuthX for private projects only. Lacks protection against hacking or reversing. Not suitable for production use.
 # AuthX
 
 AuthX is a lightweight authentication system that utilizes Pastebin as a storage platform for user credentials. It allows you to authenticate users based on their hardware ID (HWID) and PC name, granting access to specific features or content based on subscription expiry dates. It is released under the GNU General Public License v3.0.
@@ -18,8 +20,6 @@ Please read the [LICENSE](LICENSE) file for the full text of the GNU General Pub
 2. Run the `Request()` function to authenticate the user.
 3. AuthX will fetch the user credentials from Pastebin and compare them with the current HWID and PC name.
 4. Depending on the authentication result, different response messages will be displayed in the console.
-
-Warning: AuthX for private projects only. Lacks protection against hacking or reversing. Not suitable for production use.
 ```
 
 ## Current Features
